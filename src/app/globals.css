@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #FF4081; /* Main Pink */
-  --color-primary-dark: #D81B60; /* Darker Pink */
-  --color-secondary: #9575CD; /* Lilac/Purple */
-  --color-background: #F8F9FA; /* Light Background */
-  --color-background-dark: #1E1A2A; /* Dark Mode */
-  --color-text: #333333; /* Dark Gray Text */
-  --color-text-light: #F8F9FA; /* Light Text */
-  --color-navbar: rgba(255, 255, 255, 0.2); /* Glassmorphism Effect */
-  --color-button-hover: #B0003A; /* Button Hover */
-  --color-border: rgba(255, 255, 255, 0.2); /* Soft White Border */
+  --color-primary: #FF758F; /* Warm Rose (Main Pink) */
+  --color-primary-dark: #D14D72; /* Rich Berry (Darker Pink) */
+  --color-secondary: #CBAACB; /* Lavender Blush */
+  --color-background: #FFF5F7; /* Soft Blush (Light Background) */
+  --color-background-dark: #2A1E2E; /* Deep Mauve (Dark Mode) */
+  --color-text: #333333; /* Charcoal Gray */
+  --color-text-light: #F8F9FA; /* Misty White */
+  --color-navbar: rgba(255, 255, 255, 0.2); /* Soft White Glass Effect */
+  --color-button-hover: #B03060; /* Deep Rose */
+  --color-border: rgba(200, 160, 200, 0.2); /* Soft Lilac */
 }
 
 
