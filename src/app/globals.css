@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #FF4081; /* Main Pink */
+  --color-primary-dark: #D81B60; /* Darker Pink */
+  --color-secondary: #9575CD; /* Lilac/Purple */
+  --color-background: #F8F9FA; /* Light Background */
+  --color-background-dark: #1E1A2A; /* Dark Mode */
+  --color-text: #333333; /* Dark Gray Text */
+  --color-text-light: #F8F9FA; /* Light Text */
+  --color-navbar: rgba(255, 255, 255, 0.2); /* Glassmorphism Effect */
+  --color-button-hover: #B0003A; /* Button Hover */
+  --color-border: rgba(255, 255, 255, 0.2); /* Soft White Border */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -16,5 +25,32 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--color-background);
 }
+
+.glass-navbar {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Color Palette for Your Portfolio Website
+Primary Color (Main Theme) → Pink (#FF4081 or #E91E63)
+Text Color (Body & Readability) → Dark Gray (#333333) or Near-Black (#1A1A1A)
+Headers & Titles → Soft White (#F8F9FA) or Muted Pink (#FFC1E3)
+Navbar (Glassmorphism) → Translucent White with Blur (RGBA: rgba(255, 255, 255, 0.2))
+Buttons (Primary Action Buttons) → Bold Pink (#D81B60) or Magenta (#C2185B)
+Button Hover Effect → Darker Shade of Pink (#B0003A) or Purple Accent (#9C27B0)
+Secondary Buttons & Links → Muted Lilac/Purple (#9575CD) or Light Pink (#FF80AB)
+Background (Dark Mode Option) → Deep Purple/Navy Blue (#1E1A2A or #2C2C54)
+💡 Default Background Color:
+✅ Light Mode: --color-background: #F8F9FA; (Soft White)
+✅ Dark Mode: --color-background-dark: #1E1A2A; (Deep Purple/Navy Blue)
+Glassmorphism Shadow & Border → Soft White Border (rgba(255, 255, 255, 0.2)) + Blur Effect
+Success / Error Messages →
+Success → Teal/Greenish Blue (#26A69A)
+Error → Reddish Pink (#E53935)
+🌟 Extra UI/UX Enhancements
+Use gradients: Pink + Purple Gradient (linear-gradient(135deg, #FF4081, #9C27B0)) for highlights or hero sections.
+Glassmorphism navbar: Semi-transparent with a blur effect (backdrop-filter: blur(10px)).
+Subtle animations: Soft hover effects on buttons (box-shadow: 0px 5px 15px rgba(255, 64, 129, 0.3);). */

@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <section id="home">
-        <h1>Hero Section</h1>
+        <h1>Mabel Samuel</h1>
     </section>
   )
 }
