@@ -13,12 +13,18 @@ export const metadata = {
   description: "Mabel Samuel's Portfolio",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} text-text font-poppins antialiased`}>
-        <Navbar/>
-      {children}
+      <body
+        className={`${poppins.variable} text-text font-poppins antialiased`}
+      >
+        <Navbar />
+        {children}
       </body>
     </html>
   );

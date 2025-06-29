@@ -26,7 +26,7 @@ export default {
         xl: "16px",
       },
       boxShadow: {
-        pink: "0px 5px 15px rgba(255, 64, 129, 0.3)", // Glow Effect for Buttons
+        pink: "0px 5px 15px rgba(255, 64, 129, 0.3)",
       },
       fontFamily: {
         poppins: ['var(--font-poppins)'],
