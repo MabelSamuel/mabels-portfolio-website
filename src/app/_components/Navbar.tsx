@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { navLinks } from "@/app/_lib/nav-links";
 import { useThemeStore } from "@/stores/themeStore";
 import { Menu, Moon, Sun, X } from "lucide-react";
@@ -8,7 +7,7 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("Home");
+  const [activeSection, setActiveSection] = useState("home");
   const { theme, toggleTheme } = useThemeStore();
 
   useEffect(() => {
@@ -16,7 +15,7 @@ export default function Navbar() {
       const scrollPosition = window.scrollY + 100;
 
       for (const link of navLinks) {
-        const element = document.getElementById(link.title);
+        const element = document.getElementById(link.link);
         if (element) {
           const offsetTop = element.offsetTop;
           const offsetHeight = element.offsetHeight;
@@ -25,7 +24,7 @@ export default function Navbar() {
             scrollPosition >= offsetTop &&
             scrollPosition < offsetTop + offsetHeight
           ) {
-            setActiveSection(link.title);
+            setActiveSection(link.link);
             break;
           }
         }
@@ -60,7 +59,7 @@ export default function Navbar() {
                     key={index}
                     onClick={() => scrollToSection(link.link)}
                     className={`capitalize transition-all duration-300 hover:scale-105 ${
-                      activeSection === link.title
+                      activeSection === link.link
                         ? "text-pink-500 font-semibold"
                         : theme === "dark"
                           ? "text-white/80 hover:text-pink-400"
@@ -81,7 +80,7 @@ export default function Navbar() {
                 {theme === "light" ? (
                   <Sun className="w-5 h-5" />
                 ) : (
-                  <Moon className="w-5 h-5" />
+                  <Moon className="w-5 h-5 text-white/80" />
                 )}
               </Button>
 

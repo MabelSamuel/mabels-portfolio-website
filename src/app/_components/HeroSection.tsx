@@ -43,11 +43,11 @@ export default function HeroSection() {
               src="/crochet.jpg"
               alt="Mabel Samuel"
               fill
-              className="object-cover rounded-md "
+              className="object-cover rounded-xl "
               priority
             />
           </div>
-          <div className="py-6 flex flex-col justify-center space-y-16">
+          <div className="py-6 flex flex-col justify-center space-y-16 text-lg">
             <div className={theme === "dark" ? "text-white": "text-gray-800"}>
               <div>Hi, my name is</div>
               <h1 className="text-5xl md:text-6xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent animate-pulse">
