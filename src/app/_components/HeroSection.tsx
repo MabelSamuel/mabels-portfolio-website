@@ -40,7 +40,7 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-12 lg:h-[70vh]">
           <div className="relative w-full h-screen lg:h-auto">
             <Image
-              src="/crochet.jpg"
+              src="/mabel-potrait.jpg"
               alt="Mabel Samuel"
               fill
               className="object-cover rounded-xl "
@@ -53,9 +53,9 @@ export default function HeroSection() {
               <h1 className="text-5xl md:text-6xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent animate-pulse">
                 Mabel Samuel.
               </h1>
-              <p className="mt-16">Also known as Mapleberry.</p>
+              <p className="mt-16">Fondly called Mapleberry.</p>
               <p>
-                I'm currently a software engineer currently based in Rivers,
+                I'm a software engineer currently based in Rivers,
                 Nigeria.
               </p>
               <p>
