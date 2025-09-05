@@ -6,7 +6,7 @@ export default function AboutMeSection() {
   return (
     <section
       id="aboutMe"
-      className="min-h-screen lg:flex items-center justify-center px-10 lg:px-4 py-20"
+      className="lg:flex items-center justify-center px-10 lg:px-4 py-20"
     >
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
@@ -33,7 +33,7 @@ export default function AboutMeSection() {
               }`}
             >
               I started my coding journey in 2023 learning python before transitioning to full stack web development. 
-              I'm a passionate full-stack developer with almost 2 years of
+              I&apos;m a passionate full-stack developer with almost 2 years of
               experience creating beautiful and functional web applications. I
               love turning complex problems into simple, beautiful designs.
             </p>
@@ -42,7 +42,7 @@ export default function AboutMeSection() {
                 theme === "dark" ? "text-white/90" : "text-gray-700"
               }`}
             >
-              When I'm not coding, you can find me exploring new technologies,
+              When I&apos;m not coding, you can find me exploring new technologies,
               contributing to open-source projects, or enjoying a good cup of
               coffee while sketching new ideas.
             </p>

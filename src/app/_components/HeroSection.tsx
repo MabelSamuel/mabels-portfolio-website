@@ -55,11 +55,11 @@ export default function HeroSection() {
               </h1>
               <p className="mt-16">Fondly called Mapleberry.</p>
               <p>
-                I'm a software engineer currently based in Rivers,
+                I&apos;m a software engineer currently based in Rivers,
                 Nigeria.
               </p>
               <p>
-                Fun fact, I'd rather read the documentation than watch a youtube
+                Fun fact, I&apos;d rather read the documentation than watch a youtube
                 video.
               </p>
             </div>

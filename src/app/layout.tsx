@@ -1,7 +1,6 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/_components/Navbar";
-import { icons } from "lucide-react";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -10,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Mabel Samuel",
+  title: "Mabel Samuel | Portfolio",
   description: "Mabel Samuel's Portfolio",
   icons: {
     icon: "/android-chrome-192x192.png",
