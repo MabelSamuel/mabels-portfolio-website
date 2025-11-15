@@ -17,7 +17,7 @@ export default function AboutMeSection() {
           >
             About Me
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-pink-500 mx-auto rounded-full"></div>
         </div>
         <div
           className={`rounded-2xl backdrop-blur-md border transition-all duration-500 hover:scale-105 ${
@@ -33,7 +33,7 @@ export default function AboutMeSection() {
               }`}
             >
               I started my coding journey in 2023 learning python before transitioning to full stack web development. 
-              I&apos;m a passionate full-stack developer with almost 2 years of
+              I&apos;m a passionate full-stack developer with 2 years of
               experience creating beautiful and functional web applications. I
               love turning complex problems into simple, beautiful designs.
             </p>

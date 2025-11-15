@@ -38,7 +38,7 @@ export default function HeroSection() {
     >
       <div className="max-w-5xl mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-12 lg:h-[70vh]">
-          <div className="relative w-full h-screen lg:h-auto">
+          <div className="relative w-full h-[50vh] lg:h-auto">
             <Image
               src="/mabel-potrait.jpg"
               alt="Mabel Samuel"
@@ -50,7 +50,7 @@ export default function HeroSection() {
           <div className="py-6 flex flex-col justify-center space-y-16 text-lg">
             <div className={theme === "dark" ? "text-white": "text-gray-800"}>
               <div>Hi, my name is</div>
-              <h1 className="text-5xl md:text-6xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent animate-pulse">
+              <h1 className="text-5xl md:text-6xl text-pink-500 bg-clip-text animate-pulse">
                 Mabel Samuel.
               </h1>
               <p className="mt-16">Fondly called Mapleberry.</p>

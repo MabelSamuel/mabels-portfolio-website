@@ -52,15 +52,15 @@ export default function Navbar() {
           }`}>
         <div className="px-6 py-4">
           <div className="flex items-center justify-between">
-            <span className=" text-primary text-2xl font-medium bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Mabel.</span>
+            <span className=" text-pink-500 text-2xl font-medium bg-clip-text">Mabel.</span>
             <div className="hidden md:flex space-x-8 items-center">
               {navLinks.map((link, index) => (
                 <button
                     key={index}
                     onClick={() => scrollToSection(link.link)}
-                    className={`capitalize transition-all duration-300 hover:scale-105 ${
+                    className={`capitalize font-semibold transition-all duration-300 hover:scale-105 ${
                       activeSection === link.link
-                        ? "text-pink-500 font-semibold"
+                        ? "text-pink-500 "
                         : theme === "dark"
                           ? "text-white/80 hover:text-pink-400"
                           : "text-gray-700 hover:text-pink-600"

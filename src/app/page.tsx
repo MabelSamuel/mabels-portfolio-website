@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <main className={`min-h-screen transition-all duration-500 ${
         theme === "dark"
-          ? "bg-gradient-to-br from-gray-900 via-purple-900 to-pink-900"
-          : "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-100"
+          ? "bg-[#161320]"
+          : "bg-[#fff0f6]"
       }`}>
       <HeroSection />
       <AboutMeSection/>

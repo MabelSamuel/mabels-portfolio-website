@@ -17,7 +17,7 @@ export default function CertificationSection() {
           >
             Certifications
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-pink-500 mx-auto rounded-full"></div>
         </div>
       </div>
     </section>

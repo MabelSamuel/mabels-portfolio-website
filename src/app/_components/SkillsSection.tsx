@@ -44,7 +44,7 @@ export default function SkillsSection() {
           >
             Skills
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-pink-500 mx-auto rounded-full"></div>
         </div>
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
             {skills.map((skill, index) => (
@@ -61,7 +61,7 @@ export default function SkillsSection() {
                   }`}
                 >
                   <div className="flex flex-col items-center gap-4">
-                    <div className="w-16 h-16 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                    <div className="w-16 h-16 rounded-full bg-pink-500 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
                       <div className="text-white text-xl">{skill.icon}</div>
                     </div>
                     <span className={`font-semibold text-lg ${theme === "dark" ? "text-white" : "text-gray-800"}`}>
