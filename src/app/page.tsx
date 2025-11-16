@@ -6,6 +6,7 @@ import SkillsSection from "@/app/_components/SkillsSection";
 import { useThemeStore } from "@/stores/themeStore";
 import CertificationSection from "./_components/CertificationSection";
 import FooterSection from "./_components/FooterSection";
+import WorkExperienceSection from "./_components/WorkExperienceSection";
 
 export default function Home() {
   const { theme } = useThemeStore();
@@ -19,6 +20,7 @@ export default function Home() {
       <AboutMeSection/>
       <SkillsSection/>
       <ProjectSection/>
+      <WorkExperienceSection/>
       <CertificationSection/>
       <FooterSection/>
     </main>

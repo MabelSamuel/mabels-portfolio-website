@@ -3,5 +3,6 @@ export const navLinks = [
     {link: "aboutMe", title: "About Me"},
     {link: "skills", title: "Skills"},
     {link: "projects", title: "Projects"},
+    {link: "experience", title: "Experience"},
     {link: "certifications", title: "Certifications"},
 ]
