@@ -38,12 +38,12 @@ export default function HeroSection() {
     >
       <div className="max-w-5xl mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-12 lg:h-[70vh]">
-          <div className="relative w-full h-[50vh] lg:h-auto">
+          <div className="relative w-full h-[50vh] md:h-[70vh] lg:h-auto">
             <Image
               src="/mabel-potrait.jpg"
               alt="Mabel Samuel"
               fill
-              className="object-cover rounded-xl "
+              className="object-cover md:object-contain lg:object-cover rounded-xl "
               priority
             />
           </div>
