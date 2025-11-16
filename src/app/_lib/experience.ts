@@ -30,6 +30,20 @@ export const workExperience = [
     ],
   },
   {
+    title: "Open Source Contributor",
+    company: "Hacktoberfest",
+    year: "2025",
+    duration: "Oct 2025",
+    description:
+      "Contributed to open-source software during Hacktoberfest, collaborating with global maintainers to improve real-world projects.",
+    achievements: [
+      "Contributed meaningful code to 3 open-source projects, submitting multiple pull requests that improved documentation, UI components, and backend logic.",
+      "Resolved reported issues and refactored existing codebases to increase maintainability and readability.",
+      "Collaborated with maintainers to review feedback, iterate on solutions, and ensure contributions met project standards.",
+      "Enhanced project stability by identifying bugs, suggesting improvements, and validating fixes before merging.",
+    ],
+  },
+  {
     title: "Frontend Developer",
     company: "Ngbukanigeria",
     year: "2025",

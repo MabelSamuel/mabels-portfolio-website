@@ -9,8 +9,22 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Mabel Samuel | Portfolio",
+  title: "Mabel Samuel | Software Engineer & QA Tester",
   description: "Mabel Samuel's Portfolio",
+  keywords: [
+    "Mabel Samuel",
+    "Software Engineer",
+    "Frontend Developer",
+    "Fullstack Developer",
+    "Next.js Developer",
+    "React Developer",
+    "Django Developer",
+    "Portfolio",
+    "Web Developer Nigeria",
+    "QA Tester",
+    "QA Engineer",
+  ],
+  authors: [{ name: "Mabel Samuel" }],
   icons: {
     icon: "/android-chrome-192x192.png",
   }
