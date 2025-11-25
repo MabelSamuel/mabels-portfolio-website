@@ -91,9 +91,9 @@ export default function Navbar() {
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
                 {isMenuOpen ? (
-                  <X className="w-5 h-5" />
+                  <X className={`${theme === "dark" ? "text-white/80" : ""} w-5 h-5`} />
                 ) : (
-                  <Menu className="w-5 h-5" />
+                  <Menu className={`${theme === "dark" ? "text-white/80" : ""} w-5 h-5`} />
                 )}
               </Button>
             </div>
