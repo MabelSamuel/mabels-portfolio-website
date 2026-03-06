@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/_components/Navbar";
+import Script from "next/script";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -37,6 +38,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="zjakqF6ateJYYTHemk9ZeQ"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`${poppins.variable} text-text font-poppins antialiased`}
       >
