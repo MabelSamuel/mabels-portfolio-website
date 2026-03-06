@@ -23,7 +23,7 @@ export default function AboutMeSection() {
           className={`rounded-2xl backdrop-blur-md border transition-all duration-500 hover:scale-105 ${
             theme === "dark"
               ? "bg-white/10 border-white/20 shadow-lg shadow-pink-500/20"
-              : "bg-white/40 border-white/40 shadow-lg shadow-pink-300/30"
+              : "bg-white/70 border-white/40 shadow-lg shadow-pink-300/30"
           }`}
         >
           <div className="p-8">

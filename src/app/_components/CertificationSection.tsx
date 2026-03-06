@@ -38,7 +38,7 @@ export default function CertificationSection() {
                       className={`backdrop-blur-md border rounded-lg px-6 py-4 transition-all duration-300 hover:no-underline ${
                         theme == 'dark'
                           ? "bg-white/10 border-white/20 hover:bg-white/15 text-white hover:text-pink-400"
-                          : "bg-white/40 border-white/40 hover:bg-white/50 text-gray-800 hover:text-pink-600"
+                          : "bg-white/70 border-white/40 hover:bg-white/50 text-gray-800 hover:text-pink-600"
                       }`}
                     >
                       <div className="flex items-center gap-4">
@@ -48,7 +48,7 @@ export default function CertificationSection() {
                       </div>
                     </AccordionTrigger>
                     <AccordionContent>
-                      <div className={`mt-4 space-y-6 pl-6 pr-6 pb-6 border-l-2 ${theme == 'dark' ? "border-pink-500/30" : "border-pink-300/50"}`}>
+                      <div className={`mt-4 space-y-6 pl-6 pr-6 pb-6 border-l-2 ${theme == 'dark' ? "border-pink-600" : "border-pink-300/50"}`}>
                         {certificationsByYear[year].map((cert) => (
                           <div key={cert.title} className="animate-in fade-in-0 slide-in-from-left-2 duration-500">
                             <h3 className="text-lg font-semibold text-pink-600 dark:text-pink-400 mb-1">
@@ -63,7 +63,7 @@ export default function CertificationSection() {
                             </div>
                             <a
                               href={cert.credential}
-                              className="text-pink-500 hover:text-pink-600 dark:hover:text-pink-400 text-sm underline transition-colors duration-300"
+                              className="text-pink-700 hover:text-pink-600 dark:hover:text-pink-400 text-sm underline transition-colors duration-300"
                             >
                               show credential
                             </a>

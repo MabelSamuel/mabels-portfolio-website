@@ -14,7 +14,7 @@ export default function Home() {
     <main className={`min-h-screen transition-all duration-500 ${
         theme === "dark"
           ? "bg-[#161320]"
-          : "bg-[#fff0f6]"
+          : "bg-pink-100"
       }`}>
       <HeroSection />
       <AboutMeSection/>

@@ -1,6 +1,4 @@
-import React from "react";
 import { useThemeStore } from "@/stores/themeStore";
-import { Moon, Sun, Menu, X, ExternalLink, Mail, Linkedin, Github } from "lucide-react"
 import {
   SiReact,
   SiTypescript,
@@ -54,14 +52,14 @@ export default function SkillsSection() {
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div
-                  className={`backdrop-blur-md border p-6 transition-all duration-500 hover:scale-105 text-center group rounded-2xl${
+                  className={`backdrop-blur-md border p-6 transition-all duration-500 hover:scale-105 text-center group rounded-2xl ${
                     theme === "dark"
                       ? "bg-white/10 border-white/20 shadow-lg shadow-pink-500/20 hover:bg-white/15"
-                      : "bg-white/40 border-white/40 shadow-lg shadow-pink-300/30 hover:bg-white/50"
+                      : "bg-white/70 border-white/40 shadow-lg shadow-pink-300/30 hover:bg-white/50"
                   }`}
                 >
                   <div className="flex flex-col items-center gap-4">
-                    <div className="w-16 h-16 rounded-full bg-pink-500 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                    <div className="w-16 h-16 rounded-full bg-pink-600 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
                       <div className="text-white text-xl">{skill.icon}</div>
                     </div>
                     <span className={`font-semibold text-lg ${theme === "dark" ? "text-white" : "text-gray-800"}`}>

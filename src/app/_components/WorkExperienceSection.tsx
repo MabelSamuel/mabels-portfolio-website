@@ -1,5 +1,4 @@
 import { useThemeStore } from "@/stores/themeStore";
-import React from "react";
 import { workExperience } from "../_lib/experience";
 import { Card } from "@/components/ui/card";
 
@@ -32,10 +31,10 @@ export default function WorkExperienceSection() {
                 className={`backdrop-blur-md border p-8 transition-all duration-500 ${
                   theme == 'dark'
                     ? "bg-white/10 border-white/20 shadow-lg shadow-pink-500/20 hover:bg-white/15"
-                    : "bg-white/40 border-white/40 shadow-lg shadow-pink-300/30 hover:bg-white/50"
+                    : "bg-white/70 border-white/40 shadow-lg shadow-pink-300/30 hover:bg-white/50"
                 }`}
               >
-                <div className="border-l-4 border-pink-500 pl-6">
+                <div className="border-l-4 border-pink-600 pl-6">
                   <h3 className="text-2xl font-bold text-pink-600 dark:text-pink-400 mb-2">
                     {job.title}
                   </h3>

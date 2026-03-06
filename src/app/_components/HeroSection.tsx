@@ -50,7 +50,7 @@ export default function HeroSection() {
           <div className="py-6 flex flex-col justify-center space-y-16 text-lg">
             <div className={theme === "dark" ? "text-white": "text-gray-800"}>
               <div>Hi, my name is</div>
-              <h1 className="text-5xl md:text-6xl text-pink-500 bg-clip-text animate-pulse">
+              <h1 className="text-5xl md:text-6xl text-pink-700 bg-clip-text animate-pulse">
                 Mabel Samuel.
               </h1>
               <p className="mt-16">Fondly called Mapleberry.</p>
@@ -71,7 +71,7 @@ export default function HeroSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className={`text-2xl ${theme === "dark" ? "text-white": "text-gray-600"}  hover:text-pink-500 transition-colors`}
+                  className={`text-2xl ${theme === "dark" ? "text-white": "text-gray-600"}  hover:text-pink-700 transition-colors`}
                 >
                   <Icon />
                 </a>

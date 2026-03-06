@@ -56,7 +56,7 @@ export default function ProjectSection() {
                 className={`backdrop-blur-md border overflow-hidden transition-all duration-500 group rounded-2xl ${
                   theme === "dark"
                     ? "bg-white/10 border-white/20 shadow-lg shadow-pink-500/20"
-                    : "bg-white/40 border-white/40 shadow-lg shadow-pink-300/30"
+                    : "bg-white/70 border-white/40 shadow-lg shadow-pink-300/30"
                 }`}
               >
                 <div className="relative overflow-hidden">
@@ -96,7 +96,7 @@ export default function ProjectSection() {
                     {project?.tech.map((tech) => (
                       <span
                         key={tech}
-                        className="px-3 py-1 rounded-full text-xs font-medium bg-pink-200/20 text-pink-600 hover:bg-pink-500/30 transition-colors"
+                        className="px-3 py-1 rounded-full text-xs font-medium bg-pink-100 text-pink-700 hover:bg-pink-500/30 transition-colors"
                       >
                         {tech}
                       </span>
@@ -108,7 +108,7 @@ export default function ProjectSection() {
                       href={project?.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-pink-400 text-sm font-medium text-pink-600 hover:bg-pink-100 transition"
+                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-pink-400 text-sm font-medium text-pink-700 hover:bg-pink-100 transition"
                     >
                       <FiGithub className="w-4 h-4" />
                       Code
@@ -117,7 +117,7 @@ export default function ProjectSection() {
                       href={project?.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-pink-500 text-sm font-medium text-white hover:opacity-90 transition"
+                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-pink-600 text-sm font-medium text-white hover:opacity-90 transition"
                     >
                       <ExternalLink className="w-4 h-4" />
                       Live

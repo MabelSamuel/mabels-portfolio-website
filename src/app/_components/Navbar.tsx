@@ -64,7 +64,7 @@ export default function Navbar() {
       >
         <div className="px-6 py-4">
           <div className="flex items-center justify-between">
-            <span className=" text-pink-500 text-2xl font-medium bg-clip-text">
+            <span className=" text-pink-600 text-2xl font-medium bg-clip-text">
               Mabel.
             </span>
             <div className="hidden lg:flex space-x-8 items-center">
@@ -74,7 +74,7 @@ export default function Navbar() {
                   onClick={() => scrollToSection(link.link)}
                   className={`capitalize font-semibold transition-all duration-300 hover:scale-105 ${
                     activeSection === link.link
-                      ? "text-pink-500 "
+                      ? "text-pink-600 "
                       : theme === "dark"
                       ? "text-white/80 hover:text-pink-400"
                       : "text-gray-700 hover:text-pink-600"
@@ -88,7 +88,7 @@ export default function Navbar() {
               <Button
                 onClick={downloadResume}
                 aria-label="Download Mabel Samuel resume"
-                className="flex bg-pink-500 hover:bg-pink-600 text-white rounded-full transition-all duration-300 gap-2"
+                className="flex bg-pink-600 hover:bg-pink-700 text-white rounded-full transition-all duration-300 gap-2"
               >
                 <FaDownload className="w-4 h-4" />
                 <span className="hidden lg:block">Resume</span>
@@ -139,7 +139,7 @@ export default function Navbar() {
                     onClick={() => scrollToSection(item.link)}
                     className={` text-left py-2 transition-all duration-300 ${
                       activeSection === item.link
-                        ? "text-pink-500 font-semibold"
+                        ? "text-pink-700 font-semibold"
                         : theme === "dark"
                         ? "text-white/80 hover:text-pink-400"
                         : "text-gray-700 hover:text-pink-600"
