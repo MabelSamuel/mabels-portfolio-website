@@ -87,6 +87,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-4">
               <Button
                 onClick={downloadResume}
+                aria-label="Download Mabel Samuel resume"
                 className="flex bg-pink-500 hover:bg-pink-600 text-white rounded-full transition-all duration-300 gap-2"
               >
                 <FaDownload className="w-4 h-4" />
@@ -97,6 +98,7 @@ export default function Navbar() {
                 size="icon"
                 className="rounded-full hover:bg-pink-500/20"
                 onClick={toggleTheme}
+                aria-label="Toggle theme"
               >
                 {theme === "light" ? (
                   <Sun className="w-5 h-5" />
@@ -110,6 +112,7 @@ export default function Navbar() {
                 size="icon"
                 className="lg:hidden rounded-full hover:bg-pink-500/20"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
+                aria-label={isMenuOpen ? "Close menu" : "Open menu"}
               >
                 {isMenuOpen ? (
                   <X
@@ -135,7 +138,7 @@ export default function Navbar() {
                     key={index}
                     onClick={() => scrollToSection(item.link)}
                     className={` text-left py-2 transition-all duration-300 ${
-                      activeSection === item.title
+                      activeSection === item.link
                         ? "text-pink-500 font-semibold"
                         : theme === "dark"
                         ? "text-white/80 hover:text-pink-400"
