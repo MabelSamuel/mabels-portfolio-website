@@ -32,19 +32,20 @@ export default function AboutMeSection() {
                 theme === "dark" ? "text-white/90" : "text-gray-700"
               }`}
             >
-              I started my coding journey in 2023 learning python before transitioning to full stack web development. 
-              I&apos;m a passionate full-stack developer with 2 years of
-              experience creating beautiful and functional web applications. I
-              love turning complex problems into simple, beautiful designs.
+              I started my coding journey in 2023 learning python before
+              transitioning to full stack web development. I&apos;m a passionate
+              full-stack developer with 2 years of experience creating beautiful
+              and functional web applications. I love turning complex problems
+              into simple, beautiful designs.
             </p>
             <p
               className={`text-lg leading-relaxed ${
                 theme === "dark" ? "text-white/90" : "text-gray-700"
               }`}
             >
-              When I&apos;m not coding, you can find me exploring new technologies,
-              contributing to open-source projects, or enjoying a good cup of
-              coffee while sketching new ideas.
+              When I&apos;m not coding, you can find me exploring new
+              technologies, contributing to open-source projects, or listening
+              to good music while crocheting a new poject.
             </p>
           </div>
         </div>

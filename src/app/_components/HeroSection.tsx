@@ -41,7 +41,7 @@ export default function HeroSection() {
           <div className="relative w-full h-[50vh] md:h-[70vh] lg:h-auto">
             <Image
               src="/mabel-potrait.jpg"
-              alt="Mabel Samuel"
+              alt="Mabel Samuel Software Engineer"
               fill
               className="object-cover md:object-contain lg:object-cover rounded-xl "
               priority

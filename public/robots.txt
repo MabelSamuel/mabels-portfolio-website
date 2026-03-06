@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mabelsamuel.vercel.app
+
+# Sitemaps
+Sitemap: https://mabelsamuel.vercel.app/sitemap.xml
