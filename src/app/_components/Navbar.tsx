@@ -46,7 +46,7 @@ export default function Navbar() {
 
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/mabel-resume-dev.pdf";
+    link.href = "/Mabel_Samuel_Resume.pdf";
     link.download = "Mabel-Samuel-Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -76,8 +76,8 @@ export default function Navbar() {
                     activeSection === link.link
                       ? "text-pink-600 "
                       : theme === "dark"
-                      ? "text-white/80 hover:text-pink-400"
-                      : "text-gray-700 hover:text-pink-600"
+                      ? "text-white hover:text-pink-400"
+                      : "text-gray-800 hover:text-pink-600"
                   }`}
                 >
                   {link.title}
