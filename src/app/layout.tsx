@@ -40,6 +40,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="mDRqcktyKQ-T_h5jrt5A02ZRDBRtkI_DbTJiLhKdoI0" />
+        <meta name="p:domain_verify" content="7d8370b9f96041e62ecb91437fc93a11"/>
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="zjakqF6ateJYYTHemk9ZeQ"

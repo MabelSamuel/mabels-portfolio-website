@@ -48,7 +48,7 @@ export default function HeroSection() {
             />
           </div>
           <div className="py-6 flex flex-col justify-center space-y-16 text-lg">
-            <div className={theme === "dark" ? "text-white": "text-gray-800"}>
+            <div className={theme === "dark" ? "text-white": "text-gray-900"}>
               <div>Hi, my name is</div>
               <h1 className="text-5xl md:text-6xl text-pink-700 bg-clip-text animate-pulse">
                 Mabel Samuel.
