@@ -6,6 +6,14 @@ import { FiGithub } from "react-icons/fi";
 
 const projects = [
   {
+    title: "TMP",
+    description:
+      "A mentorship and opportunity management platform built to connect mentors, mentees, and organizations through structured onboarding, opportunity listings, and administrative workflows.",
+    live: "https://tmp.techrity.org",
+    tech: ["Next.js", "Node.js", "Hapi", "MySQL", "Tailwind CSS"],
+    image: "/tmp.png",
+  },
+  {
     title: "Amabilis",
     description:
       "Amabilis is a fullstack e-commerce platform. Implemented features such as product listings, cart management, secure checkout, and user authentication. The platform was designed to deliver a smooth shopping experience with efficient backend APIs, etc.",
@@ -24,7 +32,6 @@ const projects = [
     github: "#",
     live: "http://148.135.78.165:4001/",
   },
-  ,
 ];
 export default function ProjectSection() {
   const { theme } = useThemeStore();
