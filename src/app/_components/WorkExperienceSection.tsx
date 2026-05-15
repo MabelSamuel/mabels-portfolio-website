@@ -16,7 +16,7 @@ export default function WorkExperienceSection() {
               theme === "dark" ? "text-white" : "text-gray-800"
             }`}
           >
-            Work Experience
+            Experience
           </h2>
           <div className="w-24 h-1 bg-pink-500 mx-auto rounded-full"></div>
         </div>
@@ -29,7 +29,7 @@ export default function WorkExperienceSection() {
             >
               <Card
                 className={`backdrop-blur-md border p-8 transition-all duration-500 ${
-                  theme == 'dark'
+                  theme == "dark"
                     ? "bg-white/10 border-white/20 shadow-lg shadow-pink-500/20 hover:bg-white/15"
                     : "bg-white/70 border-white/40 shadow-lg shadow-pink-300/30 hover:bg-white/50"
                 }`}
@@ -40,13 +40,13 @@ export default function WorkExperienceSection() {
                   </h3>
                   <div
                     className={`text-lg mb-4 ${
-                      theme == 'dark' ? "text-white/90" : "text-gray-700"
+                      theme == "dark" ? "text-white/90" : "text-gray-700"
                     }`}
                   >
                     <span className="font-semibold">{job.company}</span>
                     <span
                       className={`ml-3 italic ${
-                        theme == 'dark' ? "text-white/70" : "text-gray-600"
+                        theme == "dark" ? "text-white/70" : "text-gray-600"
                       }`}
                     >
                       {job.duration}
@@ -54,7 +54,7 @@ export default function WorkExperienceSection() {
                   </div>
                   <p
                     className={`text-base leading-relaxed mb-4 ${
-                      theme == 'dark' ? "text-white/80" : "text-gray-600"
+                      theme == "dark" ? "text-white/80" : "text-gray-600"
                     }`}
                   >
                     {job.description}
@@ -62,7 +62,7 @@ export default function WorkExperienceSection() {
                   {job.achievements && (
                     <ul
                       className={`text-base space-y-2 pl-5 ${
-                        theme == 'dark' ? "text-white/80" : "text-gray-600"
+                        theme == "dark" ? "text-white/80" : "text-gray-600"
                       }`}
                     >
                       {job.achievements.map((achievement, idx) => (

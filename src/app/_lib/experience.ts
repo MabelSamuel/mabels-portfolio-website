@@ -30,6 +30,22 @@ export const workExperience = [
     ],
   },
   {
+    title: "Fullstack Engineer (Volunteer)",
+    company: "Techrity",
+    year: "2026",
+    duration: "Jan 2026 - Present",
+    description:
+      "Contributed to the development and deployment of scalable web applications while collaborating with cross-functional teams.",
+    achievements: [
+      "Designed and implemented backend architecture for the mentorship platform, including scalable public and admin API endpoints.",
+      "Developed and integrated RESTful APIs for mentorship applications, partnerships, and administrative workflows, improving system maintainability and data flow efficiency.",
+      "Collaborated across frontend and backend teams to integrate core platform features and ensure seamless communication between services.",
+      "Led integration and deployment support for the Techrity Mentorship Program platform, identifying and resolving production-level validation and configuration issues.",
+      "Redesigned and optimized the Opportunity Board interface to improve usability, responsiveness, and user engagement.",
+      "Diagnosed and resolved backend bugs affecting application workflows, improving platform stability and reducing user-facing errors.",
+    ],
+  },
+  {
     title: "Open Source Contributor",
     company: "Hacktoberfest",
     year: "2025",
