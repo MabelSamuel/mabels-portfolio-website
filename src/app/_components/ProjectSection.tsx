@@ -27,10 +27,10 @@ const projects = [
     title: "Ngbuka",
     description:
       "Ngbuka is an e-commerce platform that connects car owners with mechanics, spare parts dealers, and car part suppliers. I built both the frontend and backend, implementing features for service booking, product listings, secure transactions, and a seamless user experience.",
-    image: "/ngbuka.png",
+    image: "/ngbukaa.png",
     tech: ["React", "Firebase", "Next", "Typescript", "Tailwind"],
     github: "#",
-    live: "http://148.135.78.165:4001/",
+    live: "https://app.ngbuka.com/",
   },
 ];
 export default function ProjectSection() {
