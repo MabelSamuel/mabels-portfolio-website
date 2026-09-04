@@ -6,6 +6,15 @@ import { FiGithub } from "react-icons/fi";
 
 const projects = [
   {
+    title: "Opportunity Board",
+    description:
+      "Fullstack opportunity platform built to centralize career and development opportunities. Owned the engineering implementation across backend architecture, APIs, database integration, admin workflows, and deployment.",
+    live: "https://opportunity.techrity.org",
+    preview: "https://opportunity.techrity.org",
+    tech: ["Next.js", "TypeScript", "Node.js", "Hapi", "MySQL", "Tailwind CSS"],
+    image: "/opportunity-board.png",
+  },
+  {
     title: "TMP",
     description:
       "A mentorship and opportunity management platform built to connect mentors, mentees, and organizations through structured onboarding, opportunity listings, and administrative workflows.",
@@ -16,7 +25,7 @@ const projects = [
   {
     title: "Amabilis",
     description:
-      "Amabilis is a fullstack e-commerce platform. Implemented features such as product listings, cart management, secure checkout, and user authentication. The platform was designed to deliver a smooth shopping experience with efficient backend APIs, etc.",
+      "A fullstack e-commerce platform with product listings, cart management, authentication, and secure checkout. Built efficient backend APIs and responsive interfaces for a seamless shopping experience.",
     image: "/amabilis.png",
     tech: ["Next.js", "JavaScript", "Tailwind", "Express.js", "mongodb"],
     github:
@@ -26,7 +35,7 @@ const projects = [
   {
     title: "Ngbuka",
     description:
-      "Ngbuka is an e-commerce platform that connects car owners with mechanics, spare parts dealers, and car part suppliers. I built both the frontend and backend, implementing features for service booking, product listings, secure transactions, and a seamless user experience.",
+      "A fullstack automotive marketplace connecting car owners with mechanics and spare-parts suppliers. Built features for product listings, service bookings, authentication, and seamless API-driven interactions.",
     image: "/ngbukaa.png",
     tech: ["React", "Firebase", "Next", "Typescript", "Tailwind"],
     github: "#",
@@ -66,15 +75,30 @@ export default function ProjectSection() {
                     : "bg-white/70 border-white/40 shadow-lg shadow-pink-300/30"
                 }`}
               >
-                <div className="relative overflow-hidden">
-                  <Image
-                    src={project?.image || "/placeholder.svg"}
-                    alt={project?.title || "project"}
-                    width={300}
-                    height={200}
-                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative h-48 overflow-hidden bg-gray-100">
+                  {project.preview ? (
+                    <div className="absolute inset-0 overflow-hidden">
+                      <iframe
+                        src={project.preview}
+                        title={`${project.title} live preview`}
+                        className="absolute left-0 top-0 h-[600px] w-[1000px] origin-top-left pointer-events-none"
+                        style={{
+                          transform: "scale(0.4)",
+                          transformOrigin: "top left",
+                        }}
+                        loading="lazy"
+                      />
+                    </div>
+                  ) : (
+                    <Image
+                      src={project?.image || "/placeholder.svg"}
+                      alt={project?.title || "project"}
+                      fill
+                      className="object-cover"
+                    />
+                  )}
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
                 </div>
 
                 <div className="p-6">
